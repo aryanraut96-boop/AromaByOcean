@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aroma By Ocean - Cozy & vibrant day-to-night cafe & restaurant in Itahari. Ocean vibes, tasty bites, great sips, and memorable dines.">
+  <title>Aroma By Ocean | Itahari</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 1. STICKY NAVIGATION -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        AROMA<span>.</span>
+        <small>BY OCEAN</small>
+      </a>
+      
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#about" class="nav__link">About Us</a></li>
+          <li class="nav__item"><a href="#specials" class="nav__link">Chef's Picks</a></li>
+          <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
+          <li class="nav__item"><a href="#amenities" class="nav__link">Amenities</a></li>
+          <li class="nav__item"><a href="#location" class="nav__link">Location & Hours</a></li>
+        </ul>
+        <a href="https://wa.me/9779702003499?text=Hi%20Aroma%20By%20Ocean,%20I'd%20like%20to%20reserve%20a%20table%20/%20place%20an%20order." target="_blank" class="btn btn--primary nav__btn">WhatsApp Order / Reserve</a>
+      </div>
+
+      <!-- Mobile Toggle Button -->
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle Navigation Menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 2. FULL-SCREEN HERO SECTION -->
+    <section class="hero" id="hero">
+      <div class="hero__overlay"></div>
+      <div class="hero__content container">
+        <span class="hero__badge reveal">Ocean Vibes • Tasty Bites • Great Sips</span>
+        <h1 class="hero__title reveal">Cozy Day & Vibrant Night Experience.</h1>
+        <p class="hero__tagline reveal">Step into Itahari's favorite spot for artisanal coffee, stone-baked pizzas, sizzling momos, and refreshing ocean-inspired mocktails.</p>
+        <div class="hero__buttons reveal">
+          <a href="#menu" class="btn btn--outline">Explore Full Menu</a>
+          <a href="https://wa.me/9779702003499?text=Hi%20Aroma%20By%20Ocean,%20I'd%20like%20to%20reserve%20a%20table." target="_blank" class="btn btn--primary">Reserve on WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. ABOUT SECTION -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="about__header section-title reveal">
+          <span>Welcome to Aroma</span>
+          <h2>Ocean Vibes, Memorable Dines</h2>
+        </div>
+        
+        <p class="about__text reveal">
+          Aroma By Ocean blends warm, energetic decor with a relaxing day-to-night ambiance right in the heart of Itahari. Whether you're catching up over morning espresso, catching breeze in our garden, or enjoying a vibrant dinner with friends, we deliver fresh taste and unforgettable moments.
+        </p>
+
+        <!-- 4. AMENITIES GRID -->
+        <div class="amenities__grid" id="amenities">
+          <div class="amenity__card reveal">
+            <div class="amenity__icon">📶</div>
+            <h3>Free High-Speed WiFi</h3>
+            <p>Seamless fiber connectivity for remote working, studying, or browsing.</p>
+          </div>
+
+          <div class="amenity__card reveal">
+            <div class="amenity__icon">🌿</div>
+            <h3>Outdoor Garden Seating</h3>
+            <p>Cozy open-air garden space perfect for evening dining and gatherings.</p>
+          </div>
+
+          <div class="amenity__card reveal">
+            <div class="amenity__icon">❄️</div>
+            <h3>Air Conditioned</h3>
+            <p>Climate-controlled indoor dining room for maximum comfort year-round.</p>
+          </div>
+
+          <div class="amenity__card reveal">
+            <div class="amenity__icon">🅿️</div>
+            <h3>Parking Available</h3>
+            <p>Hassle-free, safe parking space for your two-wheelers and four-wheelers.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. FEATURED TOP 3 PICKS -->
+    <section class="specials section" id="specials">
+      <div class="container">
+        <div class="section-title reveal">
+          <span>Handpicked Favorites</span>
+          <h2>Must-Try House Specials</h2>
+        </div>
+
+        <div class="specials__grid">
+          <article class="special__card reveal">
+            <div class="special__tag">Chef's Special</div>
+            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600" alt="Aroma Special Pizza" class="special__img" loading="lazy">
+            <div class="special__details">
+              <div class="special__header">
+                <h3>Aroma Special Pizza</h3>
+                <span class="special__price">NPR 999</span>
+              </div>
+              <p>Loaded signature pizza topped with tender chicken, melted mozzarella cheese, and fresh mushrooms.</p>
+              <a href="https://wa.me/9779702003499?text=Hi,%20I'd%20like%20to%20order%20the%20Aroma%20Special%20Pizza!" target="_blank" class="special__btn">Order via WhatsApp →</a>
+            </div>
+          </article>
+
+          <article class="special__card reveal">
+            <div class="special__tag">Best Seller</div>
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&q=80&w=600" alt="Aroma Special Double Cheese Chicken Burger" class="special__img" loading="lazy">
+            <div class="special__details">
+              <div class="special__header">
+                <h3>Double Cheese Burger</h3>
+                <span class="special__price">NPR 350</span>
+              </div>
+              <p>Juicy chicken patty stacked with double cheese, fresh lettuce, and house signature sauce.</p>
+              <a href="https://wa.me/9779702003499?text=Hi,%20I'd%20like%20to%20order%20the%20Aroma%20Double%20Cheese%20Burger!" target="_blank" class="special__btn">Order via WhatsApp →</a>
+            </div>
+          </article>
+
+          <article class="special__card reveal">
+            <div class="special__tag">Popular Sip</div>
+            <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&q=80&w=600" alt="Iced Spanish Latte" class="special__img" loading="lazy">
+            <div class="special__details">
+              <div class="special__header">
+                <h3>Iced Spanish Latte</h3>
+                <span class="special__price">NPR 245</span>
+              </div>
+              <p>Rich espresso shot blended over ice with chilled milk and sweetened condensed milk.</p>
+              <a href="https://wa.me/9779702003499?text=Hi,%20I'd%20like%20to%20order%20the%20Iced%20Spanish%20Latte!" target="_blank" class="special__btn">Order via WhatsApp →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. CATEGORIZED MENU SECTION -->
+    <section class="menu section" id="menu">
+      <div class="container">
+        <div class="section-title reveal">
+          <span>Freshly Crafted</span>
+          <h2>Our Full Menu</h2>
+        </div>
+
+        <!-- Menu Tabs -->
+        <div class="menu__tabs reveal">
+          <button class="menu__tab active" data-category="coffee">Coffee & Hot Drinks</button>
+          <button class="menu__tab" data-category="cold">Iced Sips & Shakes</button>
+          <button class="menu__tab" data-category="pizzas">Pizzas & Mains</button>
+          <button class="menu__tab" data-category="bites">Appetizers & Momos</button>
+        </div>
+
+        <!-- Menu Grid -->
+        <div class="menu__grid">
+          <!-- Coffee Category -->
+          <article class="menu__card reveal" data-category="coffee">
+            <div class="menu__card-content">
+              <div class="menu__item-header">
+                <h3>Espresso</h3>
+                <span class="menu__price">NPR 120</span>
+              </div>
+              <p>Rich single shot espresso with dense golden crema.</p>
+            </div>
+          </article>
+
+          <article class="menu__card reveal" data-category="coffee">
+            <div class="menu__card-content">
+              <div class="menu__item-header">
+                <h3>Cafe Latte (Strong / Light)</h3>
+                <span class="menu__price">NPR 190 / 180</span>
+              </div>
+              <p>Smooth espresso topped with silky micro-foamed steamed milk.</p>
+            </div>
+          </article>
+
+          <article class="menu__card reveal" data-category="coffee">
+            <div class="menu__card-content">
+              <div class="menu__item-header">
+                <h3>Caramel Macchiato</h3>
+                <span class="menu__price">NPR 220</span>
+              </div>
+              <p>Espresso layered with steamed milk and drizzled rich caramel syrup.</p>
+            </div>
+          </article>
+
+          <!-- Cold Drinks Category -->
+          <article class="menu__card reveal hide" data-category="cold">
+            <div class="menu__card-content">
+              <div class="menu__item-header">
+                <h3>Iced Spanish Latte</h3>
+                <span class="menu__price">NPR 245</span>
+              </div>
+              <p>Chilled espresso blended with velvety condensed milk over ice.</p>
+            </div>
+          </article>
+
+          <article class="menu__card reveal hide" data-category="cold">
+            <div class="menu__card-content">
+              <div class="menu__item-header">
+                <h3>Blueberry Smoothie</h3>
+                <span class="menu__price">NPR 280</span>
+              </div>
+              <p>Creamy blended smoothie made with real blueberry flavor and yogurt.</p>
+            </div>
+          </article>
+
+          <article class="menu__card reveal hide" data-category="cold">
+            <div class="menu__card-content">
+              <div class="menu__item-header">
+                <h3>Virgin Mojito</h3>
+                <span class="menu__price">NPR 230</span>
+              </div>
+              <p>Crisp sparkling drink with muddled fresh mint leaves, lime, and ice.</p>
+            </div>
+          </article>
+
+          <article class="menu__card reveal hide" data-category="cold">
+            <div class="menu__card-content">
+              <div class="menu__item-header">
+                <h3>Oreo Milkshake</h3>
+                <span class="menu__price">NPR 290</span>
+              </div>
+              <p>Thick blended chocolate shake loaded with crushed Oreo cookies.</p>
+            </div>
+          </article>
+
+          <!-- Pizzas & Mains Category -->
+          <article class="menu__card reveal hide" data-category="pizzas">
+            <div class="menu__card-content">
+              <div class="menu__item-header">
+                <h3>Aroma Special Pizza</h3>
+                <span class="menu__price">NPR 999</span>
+              </div>
+              <p>Chicken, Cheese & Mushroom signature pizza blend.</p>
+            </div>
+          </article>
+
+          <article class="menu__card reveal hide" data-category="pizzas">
+            <div class="menu__card-content">
+              <div class="menu__item-header">
+                <h3>Pizza Margherita</h3>
+                <span class="menu__price">NPR 599</span>
+              </div>
+              <p>Classic tomato sauce base topped with generous mozzarella cheese and herbs.</p>
+            </div>
+          </article>
+
+          <article class="menu__card reveal hide" data-category="pizzas">
+            <div class="menu__card-content">
+              <div class="menu__item-header">
+                <h3>Chicken Biryani (Full / Half)</h3>
+                <span class="menu__price">NPR 400 / 250</span>
+              </div>
+              <p>Aromatic basmati rice cooked with marinated chicken and authentic spices.</p>
+            </div>
+          </article>
+
+          <!-- Snacks & Bites Category -->
+          <article class="menu__card reveal hide" data-category="bites">
+            <div class="menu__card-content">
+              <div class="menu__item-header">
+                <h3>Chicken Steam Momo</h3>
+                <span class="menu__price">NPR 160</span>
+              </div>
+              <p>Steamed juicy chicken dumplings served with spicy tomato chutney.</p>
+            </div>
+          </article>
+
+          <article class="menu__card reveal hide" data-category="bites">
+            <div class="menu__card-content">
+              <div class="menu__item-header">
+                <h3>Loaded Cheese Chicken Fries</h3>
+                <span class="menu__price">NPR 300</span>
+              </div>
+              <p>Crispy fries layered with shredded chicken, melted cheese, and herbs.</p>
+            </div>
+          </article>
+
+          <article class="menu__card reveal hide" data-category="bites">
+            <div class="menu__card-content">
+              <div class="menu__item-header">
+                <h3>Club Chicken Sandwich</h3>
+                <span class="menu__price">NPR 350</span>
+              </div>
+              <p>Triple-decker toasted sandwich with seasoned chicken, egg, and fresh veggies.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. LOCATION & OPENING HOURS -->
+    <section class="location section" id="location">
+      <div class="container">
+        <div class="location__wrapper">
+          <div class="location__info reveal">
+            <div class="section-title section-title--left">
+              <span>Find Us</span>
+              <h2>Opening Hours & Location</h2>
+            </div>
+            
+            <p class="location__address">📍 <strong>Address:</strong> M76F+XW8, NH08, Itahari, Koshi Province 56705, Nepal</p>
+            <p class="location__phone">📞 <strong>Direct Call / WhatsApp:</strong> <a href="tel:9702003499">9702003499</a></p>
+
+            <div class="hours__table">
+              <h3>Dine-In & Takeaway Hours</h3>
+              <ul>
+                <li><span>Sunday – Friday:</span> <span>7:00 AM – 9:00 PM</span></li>
+                <li><span>Saturday:</span> <span>7:00 AM – 9:30 PM</span></li>
+              </ul>
+            </div>
+
+            <a href="https://www.google.com/maps/dir//Aroma+by+ocean,+M76F%2BXW8,+NH08,+Itahari,+Koshi+Province+56705/@26.6651564,87.2713354,1518m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x39ef6d0002b315bf:0x6b450cce2c4d81c!2m2!1d87.2733084!2d26.6645908" target="_blank" class="btn btn--primary">Get Google Maps Directions ➔</a>
+          </div>
+
+          <!-- Google Maps Embed -->
+          <div class="location__map reveal">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3568.188734208479!2d87.2711197761005!3d26.66459567086884!2m3!1f0!1f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ef6d0002b315bf%3A0x6b450cce2c4d81c!2sAroma%20by%20ocean!5e0!3m2!1sen!2snp!4v1700000000000!5m2!1sen!2snp" 
+              width="100%" 
+              height="100%" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              title="Aroma By Ocean Google Map Location">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 8. FOOTER -->
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__brand">
+        <a href="#" class="footer__logo">AROMA<span>.</span> <small>BY OCEAN</small></a>
+        <p>Ocean Vibes, Tasty Bites, Great Sips, Memorable Dines.</p>
+      </div>
+
+      <div class="footer__socials">
+        <!-- Active Instagram Link -->
+        <a href="https://www.instagram.com/aromabyocean/" target="_blank" class="social-link" aria-label="Instagram">Instagram</a>
+        
+        <!-- Left blank for client to add later -->
+        <a href="#" class="social-link social-link--placeholder" aria-label="Facebook">Facebook (Coming Soon)</a>
+        <a href="#" class="social-link social-link--placeholder" aria-label="TikTok">TikTok (Coming Soon)</a>
+        <a href="https://wa.me/9779702003499" target="_blank" class="social-link" aria-label="WhatsApp">WhatsApp</a>
+      </div>
+    </div>
+    
+    <div class="footer__bottom container">
+      <p>&copy; 2026 Aroma By Ocean. All rights reserved. Built for Itahari.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
